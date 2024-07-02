@@ -32,8 +32,8 @@ import json
 
 app = Flask(__name__)
 
-configuration = Configuration(access_token='GEUT/FPt7ILgHaPbTFSIaq+wWI0bX2ebJWI2S3smlqwNLsFI4stjKVkrz5suPwGMNzYiTX0FmtS2d+cS9hekhE6pHC0m/+U1R0d5+Z3RcXn+0hD9/PfhCTPhC90nxumu7wmzA1INlFoAupJAsPfQNQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('3373341b0170eb1741fed9d0d5327ec9')
+configuration = Configuration(access_token='dC5Lj7ZkzxDyLTDP/Haldl88E1unWL63kSb7WkJFTpW2hu8G2ZBCLyBDdNDPbco3sYM55H4fvMnqohY+t1rzmNqKSjg2DZGLpGTfsW3doj26ENM3ehL4YlW3aMMQtytnjLEhmoSxIjNkCGziZDMhkQdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('8551eaf367263e06c850f46d62fb05a6')
 
 
 @app.route("/callback", methods=['POST'])
